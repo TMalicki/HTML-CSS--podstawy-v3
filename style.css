@@ -1,7 +1,7 @@
 
 body
 {
-    background-color: hotpink;
+    background-color:  rgb(61, 63, 61, 0.8);
     margin: 0px;
 }
 
@@ -15,12 +15,12 @@ header
     min-height: 80px;
     overflow: hidden;
     margin: 0px;
-    padding: 20px 20px 10px 200px;
+    padding: 20px 20px 10px 250px;
 }
 
 header img
 {
-    float: left;
+    float: left;                                                                                                                                                                                                                                                                        
 }
 
 header ul
@@ -53,4 +53,33 @@ header a:hover
     background-color: rgb(84, 87, 84);
     clear: both;
     margin-top: 110px;
+
+}
+
+#base
+{
+    height: 610px;
+    background-color: blue;
+}
+
+img#background
+{
+    padding-left: 100px;
+    float: left;
+}
+
+#paragraph
+{
+    float: left;  
+    width: 600px;
+    padding: 20px;
+    background-color: yellowgreen;
+}
+
+footer
+{
+    clear: both;
+    overflow: hidden;
+    background-color: yellow; 
+    text-align: center;
 }
