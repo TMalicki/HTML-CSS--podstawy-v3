@@ -1,0 +1,56 @@
+
+body
+{
+    background-color: hotpink;
+    margin: 0px;
+}
+
+header
+{
+    position: fixed;
+    top: 0px;
+    background-color: rgb(61, 63, 61, 0.8);
+    height: 80px;
+    width: 1900px;
+    min-height: 80px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 20px 20px 10px 200px;
+}
+
+header img
+{
+    float: left;
+}
+
+header ul
+{
+    float: left;
+    padding: 5px;
+    margin-left: 500px;
+}
+
+header li
+{
+    display: inline;
+    color: grey;
+    font-size: 20px;
+}
+
+header a:link, a:visited
+{
+    text-decoration: none;
+    color:grey
+}
+
+header a:hover
+{
+    color: rgb(104, 103, 103);
+}
+
+#content
+{
+    background-color: rgb(84, 87, 84);
+    clear: both;
+    margin-top: 110px;
+}
