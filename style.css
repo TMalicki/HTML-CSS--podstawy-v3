@@ -1,8 +1,9 @@
 
 body
 {
-    background-color:  rgb(61, 63, 61, 0.8);
+    background-color: pink;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header
@@ -40,46 +41,108 @@ header li
 header a:link, a:visited
 {
     text-decoration: none;
-    color:grey
+    color:rgb(133, 112, 112)
 }
 
 header a:hover
 {
-    color: rgb(104, 103, 103);
+    color: rgb(102, 93, 93);
 }
 
 #content
 {
     background-color: rgb(84, 87, 84);
     clear: both;
-    margin-top: 110px;
-
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 #base
 {
     height: 610px;
-    background-color: blue;
+    padding-bottom: 50px;
+    border-bottom: solid rgb(128, 128, 128,0.4);;
 }
 
 img#background
 {
-    padding-left: 100px;
     float: left;
 }
 
 #paragraph
 {
     float: left;  
-    width: 600px;
+    text-align: justify;
+    width: 400px;
+
     padding: 20px;
-    background-color: yellowgreen;
+    margin: 100px 10px 100px 50px;
+    color:  grey;
+    font-weight: 100;
+
+}
+
+#paragraph h1
+{
+    text-transform: uppercase;
+    position: absolute;
+    left: 300px;
+    font-size: 38px;
+}
+
+#paragraph a
+{
+    text-decoration: none;
+}
+
+#paragraph p
+{
+    color: rgb(211, 205, 205);
+}
+
+#more
+{
+    clear: both;
+    position: relative;
+    text-align: center;
+    color: grey;
+}
+#more img
+{
+
+    width: 100%;
+    margin: 1%;
+    padding: 0.5%;
+    box-shadow: inset 0px 0px 200px rgba(2, 2, 61, 0.5);
+
+}
+
+#more h1
+{
+    text-align: left;
+    padding-left: 6%;
+    margin-bottom: 0.5%;
+    font-weight: 100;
+}
+
+.column_4
+{
+    display: inline-block;
+    margin: 0px;
+    width: 250px;
+    padding: 1%;
+    padding-top: 0%;
+}
+.column_4 p
+{
+    text-align: left;
+    border-bottom: solid rgb(128, 128, 128,0.4);
+    padding-bottom: 20px;
 }
 
 footer
 {
-    clear: both;
-    overflow: hidden;
-    background-color: yellow; 
+    background-color: rgb(84, 87, 84);
+    padding: 0.1px;
     text-align: center;
 }
